@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dowry Calculator</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Dowry Calculator</h1>
+        <form id="dowry-form">
+            <div>
+                <label for="salary">Enter Salary (in Rupees)</label>
+                <input type="number" id="salary" required>
+            </div>
+            <div>
+                <label for="job-type">Job Type</label>
+                <select id="job-type">
+                    <option value="private">Private Job</option>
+                    <option value="government">Government Job</option>
+                    <option value="berozgaar">Berozgaar</option>
+                </select>
+            </div>
+            <div>
+                <label for="contribution">What Men Do</label>
+               
+                  
+                </select>
+                <textarea id="contribution" rows=""></textarea>
+            </div>
+            <button type="submit">Calculate Dowry</button>
+        </form>
+        <h2>Dowry: ₹<span id="dowry-amount">0.00</span></h2>
+    </div>
+    <script src="app.js"></script>
+</body>
+</html>
